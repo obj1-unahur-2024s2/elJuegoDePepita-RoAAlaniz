@@ -2,13 +2,17 @@ import pepita.*
 import wollok.game.*
 
 object nido {
-
-	// Completar
+	method image() {
+		return "nido.png"
+	}
 }
 
 object silvestre {
-
-	// Completar
-
+	method position() {
+		return game at(2,6)
+	}
+	method image() {
+		return "silvestre.png"
+	} 
 }
 

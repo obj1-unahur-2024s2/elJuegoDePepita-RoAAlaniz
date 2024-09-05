@@ -1,9 +1,9 @@
 import wollok.game.*
 
 object manzana {
-
-	//Completar
-
+	method energiaQueOtorga() {
+		return 40
+	} 
 }
 
 object alpiste {
