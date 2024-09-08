@@ -28,7 +28,7 @@ object pepita {
 	}
 
 	method estaEnElNido() {
-		return position = nido.position()
+		return self.position() == nido.position()
 	}
 
 }
