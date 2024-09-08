@@ -11,9 +11,8 @@ object nido {
 }
 
 object silvestre {
-	method position() {
-		return game.at(9,0)
-	}
+	var property position = game.origin()
+
 	method image() {
 		return "silvestre.png"
 	} 
